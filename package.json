@@ -1,0 +1,30 @@
+{
+  "name": "spacex-lanch-stats",
+  "version": "1.0.0",
+  "description": "A web to list SpaceX launch missions app using GraphQL, Express, React & Apollo and SpaceX data from their API",
+  "main": "server.js",
+  "scripts": {    
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skiran017/spacex-lanch-stats.git"
+  },
+  "keywords": [],
+  "author": "skiran017",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/skiran017/spacex-lanch-stats/issues"
+  },
+  "homepage": "https://github.com/skiran017/spacex-lanch-stats#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
